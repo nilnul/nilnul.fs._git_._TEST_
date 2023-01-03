@@ -15,16 +15,13 @@ namespace nilnul.fs._git_._TEST_.module_.detached
 			);
 		}
 
-		static public string CreateTmp() {
-			var t = module_.snapEmtpy.UnitTest1.CreateTmp();
+		static public string CreateTmp(string key="detached") {
+
+			var t = module_.born.UnitTest1.CreateTmp(key);
 
 
-			//create a file
-			nilnul.win.prog_.git.run.exitCode.vow_._NilX._Vod_addressOfModule_ofArgs(t,
-				"checkout"
-				,
-				"@"
-				//"HEAD"
+			nilnul.fs.git.module.repo.current._DetachX._Detach_addressAssumeModule(
+				t
 			);
 
 

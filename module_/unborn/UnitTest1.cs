@@ -2,7 +2,7 @@
 using System;
 using System.Diagnostics;
 
-namespace nilnul.fs._git_._TEST_.module_.t
+namespace nilnul.fs._git_._TEST_.module_.unborn
 {
 	[TestClass]
 	public class UnitTest1
@@ -11,7 +11,7 @@ namespace nilnul.fs._git_._TEST_.module_.t
 		public void TestMethod1()
 		{
 
-			var t = CreateTmp();
+			var t = CreateTmpAsAddress();
 
 			var upserts = nilnul.fs.git.module._work_.documents_._UpsertX.Documents(
 				t
@@ -21,10 +21,21 @@ namespace nilnul.fs._git_._TEST_.module_.t
 			);
 		}
 
-		static public string CreateTmp() {
-			var t = nilnul.fs.folder_.tmp.dir._CreateX.Address("gitModule");
+		static public string CreateTmpAsAddress(string key="unborn") {
+			;
+			return CreateTmpAsFolder(key).ToString();
+
+
+		}
+
+		static public Folder CreateTmpAsFolder(string key="unborn") {
+
+			var t = nilnul.fs.folder_.tmp.denote_.ver_.next_.subIfNeed._CreateFolderX.Folder(key);
 			nilnul.fs.git._module._IniX1.Ini(t);
 			return t;
 		}
+
+
+
 	}
 }

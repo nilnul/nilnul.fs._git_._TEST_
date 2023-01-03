@@ -21,5 +21,9 @@ namespace nilnul.fs._git_._TEST_.nilnul0.os.prog_.git.run
 
 
 		}
+
+		//public void t() {
+		//	return TestMethod1(); // c++ can do this?
+		//}
 	}
 }

@@ -250,11 +250,11 @@
     <Reference Include="nilnul.num._integer_._LIB_,Version=1.1.230515.93530-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.num._integer_._LIB_.1.1.230515.93530-sym\lib\net481\nilnul.num._integer_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul.num._quotient_._LIB_,Version=1.1.230525.53320-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num._quotient_._LIB_.1.1.230525.53320-sym\lib\net481\nilnul.num._quotient_._LIB_.dll</HintPath>
+    <Reference Include="nilnul.num._quotient_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul.num._quotient_._LIB_.1.1.230531.94846-sym\lib\net481\nilnul.num._quotient_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul.num._real_._LIB_,Version=2.1.230524.75043-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num._real_._LIB_.2.1.230524.75043-sym\lib\net481\nilnul.num._real_._LIB_.dll</HintPath>
+    <Reference Include="nilnul.num._real_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul.num._real_._LIB_.2.1.230603.142050-sym\lib\net481\nilnul.num._real_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._acc_._LIB_,Version=2.1.220731.182834, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._acc_._LIB_.2.1.220731.182834\lib\net48\nilnul._acc_._LIB_.dll</HintPath>
@@ -274,8 +274,8 @@
     <Reference Include="nilnul._comm_._LIB_, Version=1.0.7827.34092, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._comm_._LIB_.1.0.7827.34092\lib\net48\nilnul._comm_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._fs_._LIB_,Version=2.1.230513.173215-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._fs_._LIB_.2.1.230513.173215-sym\lib\net481\nilnul._fs_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._fs_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul._fs_._LIB_.2.1.230529.13904-sym\lib\net481\nilnul._fs_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._human_._LIB_,Version=1.1.220725.151533, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._human_._LIB_.1.1.220725.151533\lib\net48\nilnul._human_._LIB_.dll</HintPath>
@@ -289,8 +289,8 @@
     <Reference Include="nilnul._num_._LINQ_,Version=1.1.230419.172425-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._num_._LINQ_.1.1.230419.172425-sym\lib\net481\nilnul._num_._LINQ_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._obj_._LIB_,Version=1.2.230525.115800-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._obj_._LIB_.1.2.230525.115800-sym\lib\net481\nilnul._obj_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.230528.145436-sym\lib\net481\nilnul._obj_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._os_._LIB4FX_,Version=1.0.230111.120633-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._os_._LIB4FX_.1.0.230111.120633-sym\lib\net481\nilnul._os_._LIB4FX_.dll</HintPath>
@@ -439,6 +439,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="client_\github\repo\create\UnitTest1.cs" />
+    <Compile Include="data\lastest\dnt\UnitTest1 - Copy.cs" />
     <Compile Include="data\lastest\UnitTest1.cs" />
     <Compile Include="data\UnitTest1.cs" />
     <Compile Include="module\Cfg.cs" />
@@ -513,6 +514,7 @@
     <Compile Include="svr_\azure\client\tracket\UnitTest2.cs" />
     <Compile Include="svr_\BitBucket.cs" />
     <Compile Include="svr_\github\client\repo\create_\personal\ensure\UnitTest1.cs" />
+    <Compile Include="svr_\github\client\repo\vw\UnitTest1.cs" />
     <Compile Include="svr_\github\client_\_vaulted\vault\alter_\pass\UnitTest1.cs" />
     <Compile Include="svr_\GitLab.cs" />
     <Compile Include="svr_\gitlab\grp\prj\create\nameSpecial\byNorm\UnitTest1 - Copy.cs" />
@@ -580,6 +582,7 @@
     <Folder Include="svr_\vs\prj_\wx\work\get\" />
     <Folder Include="svr_\vs\work\get\" />
     <Folder Include="_data%28!Git\230106\" />
+    <Folder Include="_data%28!Git\230608\wangyoutian\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

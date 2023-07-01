@@ -96,6 +96,9 @@
       <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="GitLabApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul.fs.git.svr_.gitlab.client_.GitLabApiClient.1.20.0\lib\net48\GitLabApiClient.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Azure.DevOps.Comments.WebApi, Version=19.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\Microsoft.TeamFoundationServer.Client.16.205.1\lib\net462\Microsoft.Azure.DevOps.Comments.WebApi.dll</HintPath>
     </Reference>
@@ -244,8 +247,8 @@
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul.collection_._discrete_._LIB_,Version=1.1.220728.140313, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.collection_._discrete_._LIB_.1.1.220728.140313\lib\net48\nilnul.collection_._discrete_._LIB_.dll</HintPath>
+    <Reference Include="nilnul.collection_._discrete_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul.collection_._discrete_._LIB_.1.1.230611.40617-sym\lib\net481\nilnul.collection_._discrete_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._integer_._LIB_,Version=1.1.230515.93530-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.num._integer_._LIB_.1.1.230515.93530-sym\lib\net481\nilnul.num._integer_._LIB_.dll</HintPath>
@@ -254,7 +257,7 @@
       <HintPath>..\..\.deps\nilnul.num._quotient_._LIB_.1.1.230531.94846-sym\lib\net481\nilnul.num._quotient_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._real_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._real_._LIB_.2.1.230603.142050-sym\lib\net481\nilnul.num._real_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num._real_._LIB_.2.1.230618.115840-sym\lib\net481\nilnul.num._real_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._acc_._LIB_,Version=2.1.220731.182834, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._acc_._LIB_.2.1.220731.182834\lib\net48\nilnul._acc_._LIB_.dll</HintPath>
@@ -275,7 +278,7 @@
       <HintPath>packages\nilnul._comm_._LIB_.1.0.7827.34092\lib\net48\nilnul._comm_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._fs_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._fs_._LIB_.2.1.230529.13904-sym\lib\net481\nilnul._fs_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._fs_._LIB_.2.1.230624.72115-sym\lib\net481\nilnul._fs_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._human_._LIB_,Version=1.1.220725.151533, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._human_._LIB_.1.1.220725.151533\lib\net48\nilnul._human_._LIB_.dll</HintPath>
@@ -290,25 +293,25 @@
       <HintPath>packages\nilnul._num_._LINQ_.1.1.230419.172425-sym\lib\net481\nilnul._num_._LINQ_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.230528.145436-sym\lib\net481\nilnul._obj_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.230623.10954-sym\lib\net481\nilnul._obj_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._os_._LIB4FX_,Version=1.0.230111.120633-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._os_._LIB4FX_.1.0.230111.120633-sym\lib\net481\nilnul._os_._LIB4FX_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._rel_._LIB_,Version=1.2.230318.123603-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._rel_._LIB_.1.2.230318.123603-sym\lib\net481\nilnul._rel_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._rel_._LIB_, Version=1.2.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.230617.144331-sym\lib\net481\nilnul._rel_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._set_._LIB_,Version=1.1.230515.74449-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._set_._LIB_.1.1.230515.74449-sym\lib\net481\nilnul._set_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._set_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul._set_._LIB_.1.1.230615.145110-sym\lib\net481\nilnul._set_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._time_._LIB_,Version=1.1.230319.90029-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._time_._LIB_.1.1.230319.90029-sym\lib\net481\nilnul._time_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._txt_._LIB_,Version=1.1.230426.165255-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._txt_._LIB_.1.1.230426.165255-sym\lib\net481\nilnul._txt_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.230617.113803-sym\lib\net481\nilnul._txt_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._web_._LIB_,Version=1.1.230511.181942-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._web_._LIB_.1.1.230511.181942-sym\lib\net481\nilnul._web_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._web_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul._web_._LIB_.1.1.230620.115912-sym\lib\net481\nilnul._web_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._win_._LIB_,Version=1.1.221219.174250, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._win_._LIB_.1.1.221219.174250\lib\net481\nilnul._win_._LIB_.dll</HintPath>
@@ -439,11 +442,13 @@
   </Choose>
   <ItemGroup>
     <Compile Include="client_\github\repo\create\UnitTest1.cs" />
-    <Compile Include="data\lastest\dnt\UnitTest1 - Copy.cs" />
-    <Compile Include="data\lastest\UnitTest1.cs" />
+    <Compile Include="data\dir_\lastest\UnitTest1.cs" />
+    <Compile Include="data\dir\dnt\UnitTest1 - Copy.cs" />
+    <Compile Include="data\dir\UnitTest1.cs" />
     <Compile Include="data\UnitTest1.cs" />
     <Compile Include="module\Cfg.cs" />
     <Compile Include="module\cfg\ignore\UnitTest1.cs" />
+    <Compile Include="module\repo\branch\history\snaps\be_\plural\UnitTest1.cs" />
     <Compile Include="module\repo\current\vw_\byShowRef\UnitTest1.cs" />
     <Compile Include="module\repo\current\vw_\onDetached\byRevParse\UnitTest1.cs" />
     <Compile Include="module\repo\current\vw_\onDetached\UnitTest1.cs" />
@@ -463,6 +468,7 @@
     <Compile Include="module\_ignore_\file\ensure_\dotNet\UnitTest1.cs" />
     <Compile Include="module\_work_\documents\each_\large\split\checkTotal\UnitTest1.cs" />
     <Compile Include="module\_work_\documents\each_\large\split\UnitTest1.cs" />
+    <Compile Include="module\_work_\documents_\notDotLed_\nonlink_\large\each_\split\UnitTest1.cs" />
     <Compile Include="module\_work_\documents_\upsert\UnitTest1.cs" />
     <Compile Include="module_\detached\UnitTest1.cs" />
     <Compile Include="module_\born\UnitTest1.cs" />
@@ -513,20 +519,27 @@
     <Compile Include="svr_\azure\client\teamworks\vw_\httpClient\UnitTest1.cs" />
     <Compile Include="svr_\azure\client\tracket\UnitTest2.cs" />
     <Compile Include="svr_\BitBucket.cs" />
+    <Compile Include="svr_\github\client\repos\vw\org\UnitTest1.cs" />
+    <Compile Include="svr_\github\client\repos\vw\UnitTest1.cs" />
+    <Compile Include="svr_\github\client\repos\vw\usr\UnitTest1.cs" />
     <Compile Include="svr_\github\client\repo\create_\personal\ensure\UnitTest1.cs" />
     <Compile Include="svr_\github\client\repo\vw\UnitTest1.cs" />
     <Compile Include="svr_\github\client_\_vaulted\vault\alter_\pass\UnitTest1.cs" />
     <Compile Include="svr_\GitLab.cs" />
-    <Compile Include="svr_\gitlab\grp\prj\create\nameSpecial\byNorm\UnitTest1 - Copy.cs" />
-    <Compile Include="svr_\gitlab\grp\prj\create\nameSpecial\UnitTest1 - Copy.cs" />
-    <Compile Include="svr_\gitlab\grp\prj\create\UnitTest1 - Copy.cs" />
-    <Compile Include="svr_\gitlab\grp\prj\create_\pub\UnitTest1 - Copy.cs" />
-    <Compile Include="svr_\gitlab\prj\create\UnitTest1 - Copy.cs" />
-    <Compile Include="svr_\gitlab\prj\create\UnitTest1.cs" />
-    <Compile Include="svr_\gitlab\repo\_name\txt\norm\decode\UnitTest1.cs" />
-    <Compile Include="svr_\gitlab\repo\_name\txt\norm\UnitTest1.cs" />
-    <Compile Include="svr_\gitlab\repo\_name\txt\_norm\UnitTest1.cs" />
-    <Compile Include="svr_\gitlab\user\PrivateToken.cs" />
+    <Compile Include="svr_\gitlab\usr\grps\map_\namesp\vw\byLib\UnitTest1.cs" />
+    <Compile Include="svr_\gitlab\usr\grps\map_\namesp\vw\UnitTest1.cs" />
+    <Compile Include="svr_\gitlab\usr\repo\create_\byWebReq_\tokenInHeader\unnormed\UnitTest1.cs" />
+    <Compile Include="svr_\gitlab\usr_\grp\repo\create\nameSpecial\byNorm\UnitTest1 - Copy.cs" />
+    <Compile Include="svr_\gitlab\usr_\grp\repo\create\nameSpecial\UnitTest1 - Copy.cs" />
+    <Compile Include="svr_\gitlab\usr_\grp\repo\create\UnitTest1 - Copy.cs" />
+    <Compile Include="svr_\gitlab\usr_\grp\repo\create_\pub_\UnitTest1 - Copy.cs" />
+    <Compile Include="svr_\gitlab\usr\repo\create\UnitTest1 - Copy.cs" />
+    <Compile Include="svr_\gitlab\usr\repo\create\UnitTest1.cs" />
+    <Compile Include="svr_\gitlab\usr\repo\_name\txt\norm\decode\UnitTest1.cs" />
+    <Compile Include="svr_\gitlab\usr\repo\_name\txt\norm\UnitTest1.cs" />
+    <Compile Include="svr_\gitlab\usr\repo\_name\txt\_norm\UnitTest1.cs" />
+    <Compile Include="svr_\gitlab\usr\PrivateToken.cs" />
+    <Compile Include="svr_\gitlab\usr_\grp\repo\create_\pub_\byClient\unnormed\UnitTest1.cs" />
     <Compile Include="svr_\Vs.cs" />
     <Compile Include="svr_\vs\acc_\t2.cs" />
     <Compile Include="svr_\vs\client\teamwork\create_\byWebClient\byHttp\UnitTest1.cs" />
@@ -540,6 +553,7 @@
     <Compile Include="svr\co\sync\UnitTest1.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="data\dir_\lastest\doc_\" />
     <Folder Include="folder\be_\root\" />
     <Folder Include="folder\ini\" />
     <Folder Include="module\commit\" />
@@ -559,6 +573,7 @@
     <Folder Include="module\_cfg\" />
     <Folder Include="module\_ignore_\file\ensure\" />
     <Folder Include="module\_work_\documents\each\" />
+    <Folder Include="module\_work_\documents_\notDotLed_\nonlink\" />
     <Folder Include="module_\tmp\" />
     <Folder Include="module_\tmp_\" />
     <Folder Include="nilnul0\fs\folder_\giT_\repo_\bare\create\tmp\" />
@@ -575,7 +590,11 @@
     <Folder Include="svr_\azure\client_\" />
     <Folder Include="svr_\azure\_client\" />
     <Folder Include="svr_\bitbucket\projects\add\NewFolder1\" />
-    <Folder Include="svr_\gitlab\repo\name\" />
+    <Folder Include="svr_\github\client\repos\vw\usr\NewFolder1\" />
+    <Folder Include="svr_\gitlab\repo\" />
+    <Folder Include="svr_\gitlab\usr\grps\vw_\" />
+    <Folder Include="svr_\gitlab\usr\repo\create_\byWebReq_\tokenInHeader\normed\" />
+    <Folder Include="svr_\gitlab\usr\repo\name\" />
     <Folder Include="svr_\vs\precesses\get\" />
     <Folder Include="svr_\vs\prj\work\" />
     <Folder Include="svr_\vs\prj_\wx\work\add\" />
@@ -583,22 +602,24 @@
     <Folder Include="svr_\vs\work\get\" />
     <Folder Include="_data%28!Git\230106\" />
     <Folder Include="_data%28!Git\230608\wangyoutian\" />
+    <Folder Include="_data%28!Git\230626\" />
+    <Folder Include="_data%28!Git\230627\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\_LIB_\nilnul.fs._git_._LIB_.csproj">
-      <Project>{fe3229c3-d9a8-4cda-9acb-a549855c9f2c}</Project>
-      <Name>nilnul.fs._git_._LIB_</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\..\.deps\AWSSDK.CodeCommit.3.7.100.136\analyzers\dotnet\cs\AWSSDK.CodeCommit.CodeAnalysis.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\_LIB_\nilnul.fs._git_._LIB_.csproj">
+      <Project>{fe3229c3-d9a8-4cda-9acb-a549855c9f2c}</Project>
+      <Name>nilnul.fs._git_._LIB_</Name>
+    </ProjectReference>
   </ItemGroup>
   <!--<ItemGroup>
     <PackageReference Include="AdysTech.CredentialManager">

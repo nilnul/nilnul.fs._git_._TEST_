@@ -3,7 +3,7 @@ using System;
 using System.Collections;
 using System.Linq;
 
-namespace nilnul.fs._git_._TEST_.data.latest
+namespace nilnul.fs._git_._TEST_.data.latest.dnt
 {
 	[TestClass]
 	public class UnitTest1
@@ -13,24 +13,30 @@ namespace nilnul.fs._git_._TEST_.data.latest
 		{
 		}
 
-		public static string Address()
+		public static _address._route.division_._div.DstI  GetDnt()
 		{
 			var appPath = nilnul.app_.dotnet_.dev._PathX.PrjBaseAsAddress_ofCalling();
 
-			var div = @"_data(!Git\230106\";
+			var div = @"_data(!Git\230608\";
 
 			var shield = nilnul.fs.address_.shield_.baseDiv_.divInDivision_._BaseInAddressX.Create(
 				appPath, div
 			);
 
 			var link = nilnul.obj.str.to_.scalar_._MaxOrDefaultX.Max(
-				nilnul.fs.folder.docs_.ext_._LnkX.Dnts(shield)
+				nilnul.fs.folder._Dsts1.Dsts(
+					//nilnul.fs.folder._RegressionsX.ToFolder(
+					(FolderI1) nilnul.fs.Folder1.Of(
+						shield
+					)
+					// )
+				)
 				,
-				d=>		nilnul.fs.file.attr_.CreateTime.Get(
-
+				d=>	nilnul.fs.file.attr_.CreateTime.Get(
 					new nilnul.fs.address_.spear_.based_.Child(
 						shield
-						,d
+						,
+						d.ToString()
 					).ToString()
 					
 				)
@@ -44,16 +50,9 @@ namespace nilnul.fs._git_._TEST_.data.latest
 
 			}
 
-			var linkAsAddress = new nilnul.fs.address_.spear_.based_.Child(
-				shield
-				,
-				link
-			);
+			return link;
 
-			var tgt = nilnul.fs.file_.shortcut._VwX.Target(linkAsAddress);
-
-			var path = tgt.ToString();// @"C:\Users\me\Desktop\Book1.xlsx";
-			return path;
+			
 
 		}
 	}
